@@ -535,13 +535,13 @@ footer {
 .modal-form-input:focus {
   border-color: #4d5ae5;
 }
-.modal-form-input:hover + .modal-form-icon {
+.modal-form-input:focus + .modal-form-icon {
   stroke: #4d5ae5;
   fill: #4d5ae5;
 }
 input[type="checkbox"]:checked
   + .modal-form-agreement-text
-  .modal-form-checkbox {
+  > .modal-form-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
